@@ -307,4 +307,4 @@ if __name__ == "__main__":
     if args.listen:
         funclip_service.launch(share=args.share, server_port=args.port, server_name=server_name, inbrowser=False)
     else:
-        funclip_service.launch(share=args.share, server_port=args.port, server_name=server_name)
+        funclip_service.launch(share=args.share, server_port=args.port, server_name=server_name, inbrowser=True)
